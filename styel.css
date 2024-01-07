@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+/*header areya styel*/
+
+header {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-size: cover;
+  height: 700px;
+  background-image: url(image/banner3.png);
+}
+.header_text {
+  width: 50%;
+  padding: 0 130px;
+}
+
+.text_areya {
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+.header_descotion {
+  color: #dddd;
+  margin-top: 35px;
+}
+.Contact_btn {
+  margin-top: 45px;
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: none;
+  color: #525ceb;
+  font-size: 18px;
+  font-weight: 700;
+}
+/*main areya styel*/
+
+main {
+  padding-top: 150px;
+}
+.parent_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fialures {
+  width: 50%;
+  padding: 0 140px;
+}
+
+.prevus {
+  font-size: 40px;
+  font-weight: 700;
+}
+.parson_img {
+  width: 550px;
+}
+.main-descoption {
+  margin-top: 30px;
+  gap: 20px;
+  font-size: 17px;
+}
+.list_styel {
+  margin-top: 20px;
+  list-style-type: disc;
+  padding: 0 25px;
+}
+
+.list_styel li {
+  margin-top: 12px;
+}
+.planing__section {
+  text-align: center;
+  padding: 0 120px;
+  margin-top: 130px;
+}
+.planing_areya {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 70px;
+}
+.planing_text_head {
+  font-size: 35px;
+  font-weight: 700;
+}
+.Plaen_descoption {
+  margin-top: 20px;
+}
+
+.baner_section {
+  padding: 120px 200px;
+}
+
+.baner_areya {
+  height: 260px;
+  background-image: url(image/watch.png);
+  background-size: cover;
+  opacity: 1;
+  z-index: 1;
+}
+
+.color {
+  background-image: url(image/gradient1.png);
+  height: 100%;
+}
+.baner_text {
+  height: 100%;
+  width: 50%;
+  padding: 0 50px;
+}
+.baner_text .baner_text-areya {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  padding: 30px 0;
+}
+.box {
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: none;
+  color: #3081d0;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: black;
+}
+.footer_areya {
+  display: flex;
+  align-items: top;
+  padding: 130px;
+  justify-content: space-between;
+}
+.footer_fucter {
+  padding: 0 130px;
+}
+.fotter_titel {
+  font-size: 35px;
+  font-weight: 700;
+  color: white;
+}
+.footer_descoption {
+  color: #dddd;
+  margin-top: 20px;
+}
+.input_text {
+  margin-top: 25px;
+  width: 300px;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.Subscribe_btn {
+  margin-top: 30px;
+  padding: 12px 30px;
+  border-radius: 6px;
+  border: none;
+  font-size: 18px;
+  background-color: #3081d0;
+  color: white;
+}
+.icon_areya {
+  margin-top: 40px;
+}
+.icon {
+  margin-right: 20px;
+}
